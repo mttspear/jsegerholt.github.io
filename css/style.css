@@ -22,7 +22,7 @@ work page image dimensions ( ~475 x 600px )
 
 
 body {
-    font-family: "Garamond"; 
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", Times, serif;
 }
 
 .navbar-header {
