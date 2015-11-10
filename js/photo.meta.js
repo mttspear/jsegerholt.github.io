@@ -1,6 +1,6 @@
 var ids = {
     "#g01" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.3.jpg" alt="">  </div>' +
@@ -15,7 +15,7 @@ var ids = {
     }, 
 
     "#g02" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.3.jpg" alt="">  </div>' +
@@ -34,7 +34,7 @@ var ids = {
     }, 
 
     "#g03" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: ['<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.3.jpg" alt="">  </div>' +
@@ -50,7 +50,7 @@ var ids = {
     }, 
 
     "#g04" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.3.jpg" alt="">  </div>' +
@@ -71,7 +71,7 @@ var ids = {
     }, 
 
     "#g05" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.3.jpg" alt="">  </div>' +
@@ -86,7 +86,7 @@ var ids = {
     }, 
 
     "#g06" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.3.jpg" alt="">  </div>' +
@@ -99,7 +99,7 @@ var ids = {
     }, 
 
     "#g07" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.3.jpg" alt="">  </div>' +
@@ -113,7 +113,7 @@ var ids = {
     }, 
 
     "#g08" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.3.jpg" alt="">  </div>' +
@@ -128,7 +128,7 @@ var ids = {
     },
 
     "#g09" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.3.jpg" alt="">  </div>' +
@@ -150,7 +150,7 @@ var ids = {
     }, 
 
     "#g10" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.3.jpg" alt="">  </div>' +
@@ -163,7 +163,7 @@ var ids = {
     }, 
 
     "#g11" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.3.jpg" alt="">  </div>' +
@@ -178,7 +178,7 @@ var ids = {
 
 
     "#g12" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.3.jpg" alt="">  </div>' +
@@ -192,7 +192,7 @@ var ids = {
     }, 
 
     "#g13" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.3.jpg" alt="">  </div>' +
@@ -207,7 +207,7 @@ var ids = {
     }, 
 
     "#g14" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.3.jpg" alt="">  </div>' +
@@ -223,7 +223,7 @@ var ids = {
 
 
     "#g15" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.3.jpg" alt="">  </div>' +
@@ -238,7 +238,7 @@ var ids = {
     }, 
 
     "#g16" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.2.jpg" alt="">  </div>' +
                  '</div>' ], 
@@ -250,7 +250,7 @@ var ids = {
     }, 
 
     "#g17" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.2.jpg" alt="">  </div>' +
                  '</div>' ], 
@@ -262,7 +262,7 @@ var ids = {
     }, 
 
     "#g18" : {
-        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.3.jpg" alt="">  </div>' +
