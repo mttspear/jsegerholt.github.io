@@ -205,8 +205,24 @@ var ids = {
         '<p> Photo: Billy Kidd </p>' + 
         '</div>'
     }, 
-    
-        "#g14" : {
+
+    "#g14" : {
+        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.1.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.4.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.5.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p> Nike Sportswear </p>' +
+        '<p> Fall 2015 </p>' + 
+        '<p> Photo: Billy Kidd </p>' + 
+        '</div>'
+    }, 
+
+
+    "#g15" : {
         images: [ '<div class="col-xs-12 col-md-9 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.2.jpg" alt="">  </div>' +
@@ -221,4 +237,42 @@ var ids = {
         '</div>'
     }, 
 
+    "#g16" : {
+        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.1.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.2.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p> Nike Sportswear </p>' +
+        '<p> Fall 2015 </p>' + 
+        '<p> Photo: Billy Kidd </p>' + 
+        '</div>'
+    }, 
+
+    "#g17" : {
+        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.1.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.2.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p> Nike Sportswear </p>' +
+        '<p> Fall 2015 </p>' + 
+        '<p> Photo: Billy Kidd </p>' + 
+        '</div>'
+    }, 
+
+    "#g18" : {
+        images: [ '<div class="col-xs-12 col-md-9 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.1.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.4.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.5.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p> Nike Sportswear </p>' +
+        '<p> Fall 2015 </p>' + 
+        '<p> Photo: Billy Kidd </p>' + 
+        '</div>'
+    }
 }
