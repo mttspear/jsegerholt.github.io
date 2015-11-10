@@ -1,5 +1,91 @@
+/*
+Section 3
+Fall 2015
+Zoom Campaign
+Photo: Rankin
+
+Section 4
+Summer 2015
+Nike Running / Free
+Photo:  Nathaniel Goldberg
+
+Section 5
+Fall 2015
+Nike Sportswear / Tech Pack
+Photo:  Billy Kidd
+
+Section 6
+Fall 2015
+Black Knight / PSG
+Photo:  Mathieu Cesar
+
+
+
+Section 7
+Fall 2015
+Nike Sportswear / Tech Pack
+Photo:  Jacob Sutton
+
+Section 8
+Fall 2014
+Women’s Bra Campaign
+Photo:  Marcus Ohlsson
+
+Section 9
+Summer 2014
+Nike Running / Free
+Photo:  Julia Noni
+
+Section 10
+Fall 2014
+Cross Category / Tier 1
+Photo:  Jacob Sutton
+
+Section 11
+Summer 2015
+Nike Running / Free
+Photo:  Nathaniel Goldberg
+
+Section 12
+Holiday 2015
+Nike Flash/Tier 1
+Photo:  Scott Borrero
+
+Section 13
+Summer 2015
+Nike Sportswear
+Photo:  Billy Kidd
+
+Section 14
+Holiday 2014
+Cross Category / Tier 1
+Photo:  Jacob Sutton
+
+Section 15
+Holiday 2015
+Global Football / MagistaX
+Photo:  Anthony Blasko
+
+Section 16
+Fall 2014
+Nike Basketball / Hyperdunk
+Photo:  Carlos Serrao
+
+
+
+Section 17
+Spring 2014
+Jesse J.
+Photo:  Alessio Bolzoni
+
+Section 18
+Holiday 2015
+Nike Sportswear / Tech Pack
+Photo:  Jacob Sutton
+
+*/ 
 var ids = {
-    "#g01" : {
+    "#basketball_zoom" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.2.jpg" alt="">  </div>' +
@@ -8,13 +94,14 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p> Holiday 2014 </p>' +
+        '<p> Basketball Zoom </p>' + 
+        '<p> Photo: Alan Clarke </p>' + 
         '</div>'
+
     }, 
 
-    "#g02" : {
+    "#nike_free" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.2.jpg" alt="">  </div>' +
@@ -27,9 +114,9 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.9.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p> Summer 2014 </p>' +
+        '<p> Nike Free </p>' + 
+        '<p> Photo: Julia Noni </p>' + 
         '</div>'
     }, 
 
