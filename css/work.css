@@ -1,0 +1,18 @@
+.examples {
+    height: auto; 
+/*    background-color: rgba( 0, 0, 255, 0.2 ); */
+}
+
+.examples > .bounds {
+    margin-bottom: 30px; 
+
+}
+
+.examples > img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#no-pad {
+    margin-left: 15px; 
+}
