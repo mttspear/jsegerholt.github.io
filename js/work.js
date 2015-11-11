@@ -1,5 +1,5 @@
 $( document ).ready( function() {
-    var ids = {
+/*    var ids = {
         "#basketball_zoom" : {
             images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                      '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.1.jpg" alt="">  </div>' + 
@@ -277,21 +277,14 @@ $( document ).ready( function() {
             '</div>'
         }
     }
-
+*/
 
     //    $( "body" ).fadeTo( 1000, 1 ); 
     var id = get_id(), 
         cont = $( "#main-container" ); 
-    console.log( 'this is the new id: ', id ); 
 
     // remove previous images and such
     cont.empty(); 
-
-
-    //                images: [ '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.1.jpg" alt="">  </div>', 
-    //                     '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.2.jpg" alt="">  </div>' ], 
-
-    console.log( 'all ids ', ids );
 
     // add the images
     for ( var i = 0; i < ids[ id ].images.length; i++ ) {
@@ -300,6 +293,12 @@ $( document ).ready( function() {
     // add the tiny description
     cont.append( ids[ id ].description ); 
 
+    //    console.log( 'this is the new id: ', id ); 
+    //                images: [ '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.1.jpg" alt="">  </div>', 
+    //                     '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.2.jpg" alt="">  </div>' ], 
+
+    //    console.log( 'all ids ', ids );
+    /*
     if ($(window).width() < 768) {
         // do something for small screens
         console.log( "768" )
@@ -316,7 +315,7 @@ $( document ).ready( function() {
         // do something for huge screens
         console.log( "huge" )
     }
-
+*/
 })
 
 function get_id() {
