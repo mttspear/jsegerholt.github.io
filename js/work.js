@@ -21,9 +21,9 @@ $( document ).ready( function() {
     //        images.addClass( "fadeIn" );
     //    });
 
-    $('#main-container').waitForImages().progress(function(loaded, count, success) {
+    $('#main-container').waitForImages().progress( function( loaded, count, success ) {
 //        alert(loaded + ' of ' + count + ' images has ' + (success ? 'loaded' : 'failed to load') +  '.');
-        $(this).addClass('scene_element150 fadeIn');
+        $( this ).addClass( 'scene_element50 fadeIn' );
     });
     //    $(".img-responsive").lazyload({
     //        container: $( '#main-container' ), 
