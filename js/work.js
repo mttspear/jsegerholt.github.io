@@ -21,9 +21,19 @@ $( document ).ready( function() {
     //        images.addClass( "fadeIn" );
     //    });
 
-    $('#main-container').waitForImages().progress( function( loaded, count, success ) {
-//        alert(loaded + ' of ' + count + ' images has ' + (success ? 'loaded' : 'failed to load') +  '.');
-        $( this ).addClass( 'scene_element50 fadeIn' );
+    $('#main-container').waitForImages({ 
+        finished: function() {
+            // ...
+        },
+        each: function() {
+            // ...
+            $( this ).addClass( 'scene_element150 fadeIn' );
+        },
+        waitForAll: false
+
+    }).progress( function( loaded, count, success ) {
+        //        alert(loaded + ' of ' + count + ' images has ' + (success ? 'loaded' : 'failed to load') +  '.');
+
     });
     //    $(".img-responsive").lazyload({
     //        container: $( '#main-container' ), 
