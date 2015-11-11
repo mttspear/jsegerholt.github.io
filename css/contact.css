@@ -5,14 +5,15 @@
 }
 
 .gutter-10 .col-md-12 a {
-/*    border-bottom: 1px solid black;*/
-/*    padding-bottom: 2.5px; */
+    /*    border-bottom: 1px solid black;*/
+    /*    padding-bottom: 2.5px; */
 }
 
 #about {
     margin-bottom: 20px; 
     letter-spacing: 0.5px;
-/*        text-align: center; */
+    font-size: 15px;
+    text-align: center; 
 }
 
 #capabilities {

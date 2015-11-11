@@ -1,89 +1,3 @@
-/*
-Section 3
-Fall 2015
-Zoom Campaign
-Photo: Rankin
-
-Section 4
-Summer 2015
-Nike Running / Free
-Photo:  Nathaniel Goldberg
-
-Section 5
-Fall 2015
-Nike Sportswear / Tech Pack
-Photo:  Billy Kidd
-
-Section 6
-Fall 2015
-Black Knight / PSG
-Photo:  Mathieu Cesar
-
-
-
-Section 7
-Fall 2015
-Nike Sportswear / Tech Pack
-Photo:  Jacob Sutton
-
-Section 8
-Fall 2014
-Women’s Bra Campaign
-Photo:  Marcus Ohlsson
-
-Section 9
-Summer 2014
-Nike Running / Free
-Photo:  Julia Noni
-
-Section 10
-Fall 2014
-Cross Category / Tier 1
-Photo:  Jacob Sutton
-
-Section 11
-Summer 2015
-Nike Running / Free
-Photo:  Nathaniel Goldberg
-
-Section 12
-Holiday 2015
-Nike Flash/Tier 1
-Photo:  Scott Borrero
-
-Section 13
-Summer 2015
-Nike Sportswear
-Photo:  Billy Kidd
-
-Section 14
-Holiday 2014
-Cross Category / Tier 1
-Photo:  Jacob Sutton
-
-Section 15
-Holiday 2015
-Global Football / MagistaX
-Photo:  Anthony Blasko
-
-Section 16
-Fall 2014
-Nike Basketball / Hyperdunk
-Photo:  Carlos Serrao
-
-
-
-Section 17
-Spring 2014
-Jesse J.
-Photo:  Alessio Bolzoni
-
-Section 18
-Holiday 2015
-Nike Sportswear / Tech Pack
-Photo:  Jacob Sutton
-
-*/ 
 var ids = {
     "#basketball_zoom" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
@@ -94,13 +8,12 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Holiday 2014 </p>' +
-        '<p> Basketball Zoom </p>' + 
-        '<p> Photo: Alan Clarke </p>' + 
+        '<p>Holiday 2014</p>' +
+        '<p>Basketball Zoom</p>' + 
+        '<p>Photo: Alan Clarke</p>' + 
         '</div>'
-
     }, 
-
+ 
     "#nike_free" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.1.jpg" alt="">  </div>' + 
@@ -114,13 +27,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/2/2.9.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Summer 2014 </p>' +
-        '<p> Nike Free </p>' + 
-        '<p> Photo: Julia Noni </p>' + 
+        '<p>Summer 2014</p>' +
+        '<p>Nike Free</p>' + 
+        '<p>Photo: Julia Noni</p>' + 
         '</div>'
     }, 
 
-    "#g03" : {
+    "#zoom_campaign" : {
         images: ['<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.2.jpg" alt="">  </div>' +
@@ -130,13 +43,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/3/3.6.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2015</p>' +
+        '<p>Zoom Campaign</p>' + 
+        '<p>Photo: Rankin</p>' + 
         '</div>'
     }, 
 
-    "#g04" : {
+    "#nike_running_free" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.2.jpg" alt="">  </div>' +
@@ -151,13 +64,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/4/4.11.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Summer 2015</p>' +
+        '<p>Nike Running / Free</p>' + 
+        '<p>Photo: Nathaniel Goldberg</p>' + 
         '</div>'
     }, 
 
-    "#g05" : {
+    "#nike_sports_tech" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.2.jpg" alt="">  </div>' +
@@ -166,26 +79,26 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/5/5.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2015</p>' +
+        '<p>Nike Sportswear / Tech Pack</p>' + 
+        '<p>Photo: Billy Kidd</p>' + 
         '</div>'
     }, 
 
-    "#g06" : {
+    "#psg" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/6/6.3.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2015</p>' +
+        '<p>Black Knight / PSG</p>' + 
+        '<p>Photo: Mathieu Cesar</p>' + 
         '</div>'
     }, 
 
-    "#g07" : {
+    "#nike_sports_tech2" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.2.jpg" alt="">  </div>' +
@@ -193,13 +106,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/7/7.4.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2015</p>' +
+        '<p>Nike Sportswear / Tech Pack</p>' + 
+        '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
     }, 
 
-    "#g08" : {
+    "#bra_campaign" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.2.jpg" alt="">  </div>' +
@@ -208,13 +121,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/8/8.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2014</p>' +
+        '<p>Women’s Bra Campaign</p>' + 
+        '<p>Photo: Marcus Ohlsson</p>' + 
         '</div>'
     },
 
-    "#g09" : {
+    "#nike_running_free2" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.2.jpg" alt="">  </div>' +
@@ -230,26 +143,26 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/9/9.12.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Summer 2014</p>' +
+        '<p>Nike Running / Free</p>' + 
+        '<p>Photo: Julia Noni</p>' + 
         '</div>'
     }, 
 
-    "#g10" : {
+    "#cross_tier1" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/10/10.3.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2014</p>' +
+        '<p>Cross Category / Tier 1</p>' + 
+        '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
     }, 
 
-    "#g11" : {
+    "#nike_running_free3" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.2.jpg" alt="">  </div>' +
@@ -257,14 +170,14 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/11/11.4.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Summer 2015</p>' +
+        '<p>Nike Running / Free</p>' + 
+        '<p>Photo: Nathaniel Goldberg</p>' + 
         '</div>'
     }, 
 
 
-    "#g12" : {
+    "#flash_tier1" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.2.jpg" alt="">  </div>' +
@@ -272,13 +185,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/12/12.4.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Holiday 2015</p>' +
+        '<p>Nike Flash / Tier 1</p>' + 
+        '<p>Photo: Scott Borrero</p>' + 
         '</div>'
     }, 
 
-    "#g13" : {
+    "#nike_sportswear" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.2.jpg" alt="">  </div>' +
@@ -287,13 +200,13 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/13/13.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Summer 2015</p>' +
+        '<p>Nike Sportswear</p>' + 
+        '<p>Photo: Billy Kidd</p>' + 
         '</div>'
     }, 
 
-    "#g14" : {
+    "#cross_tier1_2" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.2.jpg" alt="">  </div>' +
@@ -302,14 +215,14 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/14/14.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Holiday 2014</p>' +
+        '<p>Cross Category / Tier 1</p>' + 
+        '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
     }, 
 
 
-    "#g15" : {
+    "#magista_x" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.2.jpg" alt="">  </div>' +
@@ -318,37 +231,37 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/15/15.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Holiday 2015</p>' +
+        '<p>Global Football / MagistaX</p>' + 
+        '<p>Photo: Anthony Blasko</p>' + 
         '</div>'
     }, 
 
-    "#g16" : {
+    "#hyperdunk" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/16/16.2.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Fall 2014</p>' +
+        '<p>Nike Basketball / Hyperdunk</p>' + 
+        '<p>Photo: Carlos Serrao</p>' + 
         '</div>'
     }, 
 
-    "#g17" : {
+    "#jessie_j" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/17/17.2.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Spring 2014</p>' +
+        '<p>Jesse J.</p>' + 
+        '<p>Photo: Alessio Bolzoni</p>' + 
         '</div>'
     }, 
 
-    "#g18" : {
+    "#nike_sports_tech3" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.2.jpg" alt="">  </div>' +
@@ -357,9 +270,9 @@ var ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/18/18.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-        '<p> Nike Sportswear </p>' +
-        '<p> Fall 2015 </p>' + 
-        '<p> Photo: Billy Kidd </p>' + 
+        '<p>Holiday 2015</p>' +
+        '<p>Nike Sportswear / Tech Pack</p>' + 
+        '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
     }
 }
