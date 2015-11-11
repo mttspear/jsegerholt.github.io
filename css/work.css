@@ -1,6 +1,6 @@
 .examples {
     height: auto; 
-/*    background-color: rgba( 0, 0, 255, 0.2 ); */
+    /*    background-color: rgba( 0, 0, 255, 0.2 ); */
 }
 
 .examples > .bounds {
@@ -15,4 +15,15 @@
 
 #no-pad {
     letter-spacing: 0.5px; 
+}
+
+#no-pad p {
+    margin: 0 auto; 
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 430px) {
+    .gutter-10 {
+       margin: 0 auto; 
+    }
 }
