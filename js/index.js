@@ -10,7 +10,7 @@ $( document ).ready( function() {
         // change later!
         //        setTimeout( function() {
 
-        window.location.href = 'http://jsegerholt.github.io/work.html#' + id ; 
+        window.location.href = 'http://resinprojects.com/work.html#' + id ; 
         
         //        window.location.href = 'file:///Volumes/WorkHD/Users/derin_akintilo/Developer/Personal/Resin_jsegerholt/work.html#' + id ; 
         //        }, 1010 )
