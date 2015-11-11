@@ -3,6 +3,24 @@
 
 $( document ).ready( function() {
     var $item = $( '.imgs' );
+
+
+    $('#gallery' ).waitForImages({ 
+        finished: function() {
+            // ...
+        },
+        each: function() {
+            // ...
+            $( this ).addClass( 'scene_element150 fadeIn' );
+        },
+        waitForAll: false
+
+    }).progress( function( loaded, count, success ) {
+        //        alert(loaded + ' of ' + count + ' images has ' + (success ? 'loaded' : 'failed to load') +  '.');
+        //alert( "gottem")
+    });
+
+
     $item.on( 'click', function() {
         console.log( $( this ).attr( 'id' ) ); 
         var id = $( this ).attr( 'id' ); 
