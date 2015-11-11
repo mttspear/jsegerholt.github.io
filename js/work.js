@@ -8,13 +8,6 @@ $( document ).ready( function() {
     // remove previous images and such
     cont.empty(); 
 
-    var ids = {
-        "#nba" : {
-            images: [ '<div class="col-xs-12 col-md-9 examples">   <div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nba/1.1.jpg" alt="">  </div> <div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nba/1.2.jpg" alt="">  </div> </div>' ], 
-            description: '<div id="no-pad" class="col-md-2">     <p> Nike Sportswear </p>        <p> Fall 2015 </p>      <p> Photo: Billy Kidd </p>  </div>'
-        }
-    }
-
 
     //                images: [ '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.1.jpg" alt="">  </div>', 
     //                     '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.2.jpg" alt="">  </div>' ], 

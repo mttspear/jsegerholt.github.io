@@ -117,6 +117,30 @@
     -o-animation-fill-mode: both;
 }
 
+.m-scene .scene_element150 {
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+
+
+    -webkit-animation-duration: 2s;
+    -webkit-transition-timing-function: ease-in;
+    -webkit-animation-fill-mode: both;
+
+    -moz-animation-duration: 2s;
+    -moz-transition-timing-function: ease-in;
+    -moz-animation-fill-mode: both;
+
+    -ms-animation-duration: 2s;
+    -ms-transition-timing-function: ease-in;
+    -ms-animation-fill-mode: both;
+
+    -o-animation-duration: 2s;
+    -o-transition-timing-function: ease-in;
+    -o-animation-fill-mode: both;
+}
+
+
 /** An element that fades in */
 .m-scene .scene_element--fadein {
     animation-name: fadeIn;
