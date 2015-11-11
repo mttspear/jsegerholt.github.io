@@ -16,10 +16,19 @@ $( document ).ready( function() {
     // add the tiny description
     cont.append( ids[ id ].description ); 
 
-    $(window).on("load", function() {
-        // weave your magic here.
-        images.addClass( "fadeIn" );
+    //    $(window).on("load", function() {
+    //        // weave your magic here.
+    //        images.addClass( "fadeIn" );
+    //    });
+
+    $('#main-container').waitForImages().progress(function(loaded, count, success) {
+//        alert(loaded + ' of ' + count + ' images has ' + (success ? 'loaded' : 'failed to load') +  '.');
+        $(this).addClass('scene_element150 fadeIn');
     });
+    //    $(".img-responsive").lazyload({
+    //        container: $( '#main-container' ), 
+    //        effect : "fadeIn"
+    //    });
 
     //    console.log( 'this is the new id: ', id ); 
     //                images: [ '<div class="col-xs-12 col-md-6 col-md-offset-2 examples">    <img class="img-responsive" src="imgs/nba/1.1.jpg" alt="">  </div>', 
