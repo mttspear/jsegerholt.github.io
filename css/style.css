@@ -52,7 +52,7 @@ body {
 
 #navigation {
     /*    background-color: blue; */
-    margin-bottom: 70px; 
+    margin-bottom: 20px; 
     text-align: center;
 }
 
@@ -85,6 +85,18 @@ a:hover {
     color: black;
     text-decoration: none; 
     cursor: pointer; 
+}
+
+.container > .quote {
+    text-align: center; 
+    margin-bottom: 40px; 
+    font-size: 13px; 
+    letter-spacing: 0.5px; 
+}
+
+.container > .quote p:nth-child(1) {
+    color: #777; 
+    text-shadow: 1px 1px 10px #ccc; 
 }
 
 /* gutters */
