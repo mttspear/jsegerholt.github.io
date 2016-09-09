@@ -95,8 +95,7 @@ a:hover {
 }
 
 .container > .quote p:nth-child(1) {
-    color: #777; 
-    text-shadow: 1px 1px 10px #ccc; 
+    color: #666; 
 }
 
 /* gutters */
